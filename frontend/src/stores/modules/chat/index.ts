@@ -28,8 +28,40 @@ export const useChatStore = defineStore(
         label: 'Bing 官方',
       },
       {
+        baseUrl: 'https://bingai.zklcdc.xyz',
+        label: 'zklcdc',
+      },
+      {
         baseUrl: 'https://sydney.vcanbb.chat',
-        label: 'Cloudflare',
+        label: 'Cloudflare 1',
+      },
+      {
+        baseUrl: 'https://bingai-cfwk.zklcdc.xyz',
+        label: 'Cloudflare 2',
+      },
+      {
+        baseUrl: 'https://bingai-az.zklcdc.xyz',
+        label: 'Azure 1',
+      },
+      {
+        baseUrl: 'https://bingai.azurewebsites.net',
+        label: 'Azure 2',
+      },
+      {
+        baseUrl: 'https://tkgrg2-7860.csb.app',
+        label: 'CodeSandbox 1',
+      },
+      {
+        baseUrl: 'https://bingai-csb.zklcdc.xyz',
+        label: 'CodeSandbox 2',
+      },
+      {
+        baseUrl: 'https://bingai-vercel.zklcdc.xyz',
+        label: 'Vercel + Cloudflare Worker',
+      },
+      {
+        baseUrl: 'https://bing.vcanbb.top',
+        label: 'Oracle Cloud',
       },
       {
         baseUrl: location.origin,
